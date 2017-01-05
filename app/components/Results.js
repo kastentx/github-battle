@@ -18,10 +18,10 @@ function StartOver() {
 
 function Results (props) {
 	if (props.isLoading === true) {
-		<p> LOADING </p>
+		return <p> LOADING </p>
 	}
 
-	if (props.scores[0] === props.scores[1] && !props.isLoading) {
+	if (props.scores[0] === props.scores[1]) {
 		return (
 			<MainContainer>
 				<h1>It's a tie!</h1>
