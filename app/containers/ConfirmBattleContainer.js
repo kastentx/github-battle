@@ -1,5 +1,4 @@
 var React = require('react')
-var PropTypes = React.PropTypes
 var ConfirmBattle = require('../components/ConfirmBattle')
 var githubHelpers = require('../utils/githubHelpers')
 
